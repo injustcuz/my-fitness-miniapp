@@ -4,13 +4,12 @@ import { APP_URL } from "../../../lib/constants";
 export async function GET() {
   const farcasterConfig = {
     accountAssociation: {
-      header:
-        "eyJmaWQiOjE3OTc5LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MGMxNWE5QkVmRTg3RjY0N0IwMDNhMjI0MTY4NDYwMzYyODQ0M2Y4YiJ9",
-      payload:
-        "eyJkb21haW4iOiJtb25hZC1taW5pYXBwLXRlbXBsYXRlLXNldmVuLnZlcmNlbC5hcHAifQ",
-      signature:
-        "MHgwYzY2NDdjZDhjOWJiY2JmYzg2NGIzZjVjYWVjY2ExMTdlOTY4ZGQwMWIzMmM0NGViMjU5ZDhlOGQyMzdhZTZiMDU1MmNmNWRiMDU1MDMwNTZmNTNhZmEwZDZlZTBlZmIyMmJmNDNmMDQ4NTdhMzk2NmY0YmMzODk2N2NlZDI5ZjFi",
-    },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjMyMDIxNSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGE1N2U1MzRhZDVENDEwMGNjMDE1QUFkYWZhOUFBODhiMzY2NkQzZmMifQ",
+    "payload": "eyJkb21haW4iOiJteS1maXRuZXNzLW1pbmlhcHAudmVyY2VsLmFwcCJ9",
+    "signature": "MHgyNjYwNzY1YTdmMWUxOWMwOTVjOWQzYmZjZDhiNzUzZTZkY2ExZDdiNGU0MThhMmMwZmQ4NTFjMzI3YTYxMzI4NTAyN2MzZTA4YjMzYWFhM2IwYTQwM2Y2YmRlYThmODcyMzUxMzBlMjI1ZTE4M2JiNGMzMDU2ZDU4YzlhYmJhMTFj"
+  }
+},
     frame: {
       version: "1",
       name: "Monad Farcaster MiniApp Template",
