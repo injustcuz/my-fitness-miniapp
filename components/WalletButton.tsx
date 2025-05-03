@@ -9,9 +9,10 @@ import { useState } from 'react';
 const config = createConfig({
   chains: [mainnet],
   connectors: [
-    metaMask({ name: 'MetaMask' }), // Explicitly MetaMask connector
-    coinbaseWallet({ appName: 'MyFitnessApp', name: 'Coinbase Wallet' }), // Coinbase Wallet
-  ],
+  metaMask(),
+  coinbaseWallet({ appName: 'MyFitnessApp' }),
+],
+  
   transports: {
     [mainnet.id]: http(),
   },
