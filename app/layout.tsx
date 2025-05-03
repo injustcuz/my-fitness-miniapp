@@ -10,7 +10,8 @@ export const metadata: Metadata = {
     url: "https://my-fitness-miniapp.vercel.app",
     images: [
       {
-        url: "https://i.postimg.cc/9MjNHcs8/wow.png",
+        url: "https://my-fitness-miniapp.vercel.app/images/splash.png
+",
         width: 1200,
         height: 630,
       },
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
   },
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": "https://i.postimg.cc/9MjNHcs8/wow.png",
+    "fc:frame:image": "https://my-fitness-miniapp.vercel.app/images/splash.png",
     "fc:frame:button:1:text": "Open MiniApp",
     "fc:frame:button:1:url": "https://my-fitness-miniapp.vercel.app"
   }
