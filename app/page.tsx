@@ -1,4 +1,3 @@
-=======
 import ExerciseForm from '@/components/ExerciseForm';
 import WorkoutHistory from '@/components/WorkoutHistory';
 import UserProfile from '@/components/UserProfile';
