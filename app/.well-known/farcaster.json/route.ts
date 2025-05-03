@@ -4,7 +4,6 @@ import { APP_URL } from "../../../lib/constants";
 export async function GET() {
   const farcasterConfig = {
     accountAssociation: {
-  "accountAssociation": {
     "header": "eyJmaWQiOjMyMDIxNSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGE1N2U1MzRhZDVENDEwMGNjMDE1QUFkYWZhOUFBODhiMzY2NkQzZmMifQ",
     "payload": "eyJkb21haW4iOiJteS1maXRuZXNzLW1pbmlhcHAudmVyY2VsLmFwcCJ9",
     "signature": "MHgyNjYwNzY1YTdmMWUxOWMwOTVjOWQzYmZjZDhiNzUzZTZkY2ExZDdiNGU0MThhMmMwZmQ4NTFjMzI3YTYxMzI4NTAyN2MzZTA4YjMzYWFhM2IwYTQwM2Y2YmRlYThmODcyMzUxMzBlMjI1ZTE4M2JiNGMzMDU2ZDU4YzlhYmJhMTFj"
