@@ -10,16 +10,13 @@ export const metadata: Metadata = {
   title: "Monad Farcaster MiniApp Template",
   description: "A template for building mini-apps on Farcaster and Monad",
   other: {
-    // This line tells Warpcast to treat your site as a vNext Frame
     'fc:frame': 'vNext',
-    // Set your frame's preview image (optional)
     'fc:frame:image': 'https://my-fitness-miniapp.vercel.app/preview.png',
-    // The button text that appears in the Farcaster post card
-    'fc:frame:button:1': 'Open MiniApp',
-    // The link that button goes to
-    'fc:frame:post_url': 'https://my-fitness-miniapp.vercel.app',
+    'fc:frame:button:1:text': 'Open MiniApp',
+    'fc:frame:button:1:url': 'https://my-fitness-miniapp.vercel.app',
   },
 };
+
 
 
 export default function RootLayout({
