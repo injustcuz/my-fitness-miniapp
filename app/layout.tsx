@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "A template for building mini-apps on Farcaster and Monad",
   other: {
     'fc:frame': 'vNext',
-    'fc:frame:image': 'https://my-fitness-miniapp.vercel.app/preview.png',
+    'fc:frame:image': 'https://my-fitness-miniapp.vercel.app/preview.png.png',
     'fc:frame:button:1:text': 'Open MiniApp',
     'fc:frame:button:1:url': 'https://my-fitness-miniapp.vercel.app',
   },
