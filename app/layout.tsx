@@ -1,3 +1,5 @@
+// app/layout.tsx
+import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,7 +18,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  // ⚠️ NO more `other: { "fc:frame": … }`
+  // 🚫 remove any `other: { "fc:frame": … }` here
 };
 
 export default function RootLayout({
@@ -28,31 +30,5 @@ export default function RootLayout({
     <html lang="en">
       <body>{children}</body>
     </html>
-  );
-
-  // app/head.tsx
-export default function Head() {
-  const frameEmbed = {
-    version: "next",                               // must be "1" or "next"
-    imageUrl: "https://my-fitness-miniapp.vercel.app/images/splash.png", // 3:2 ratio
-    button: {
-      title: "Open MiniApp",                      // ≤32 chars
-      action: {
-        type: "launch_frame",                     // opens the Mini-App
-        url:  "https://my-fitness-miniapp.vercel.app", 
-        name: "My Farcaster MiniApp",             // your app’s name
-        splashImageUrl: "https://my-fitness-miniapp.vercel.app/images/splash.png", // optional
-        splashBackgroundColor: "#ffffff"          // optional
-      }
-    }
-  };
-
-  return (
-    <>
-      <meta
-        name="fc:frame"
-        content={JSON.stringify(frameEmbed)}
-      />
-    </>
   );
 }
