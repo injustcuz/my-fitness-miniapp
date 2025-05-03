@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://my-fitness-miniapp.vercel.app",
     images: [
       {
-        url: "https://cdn.prod.website-files.com/667c57e6f9254a4b6d914440/667f1590ccceec3eee19ec7c_Favicon.png",
+        url: "https://postimg.cc/8FtbhgpM",
         width: 1200,
         height: 630,
       },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": "https://cdn.prod.website-files.com/667c57e6f9254a4b6d914440/667f1590ccceec3eee19ec7c_Favicon.png",
+    "fc:frame:image": "https://postimg.cc/8FtbhgpM",
     "fc:frame:button:1:text": "Open MiniApp",
     "fc:frame:button:1:url": "https://my-fitness-miniapp.vercel.app"
   }
