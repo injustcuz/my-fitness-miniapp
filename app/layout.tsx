@@ -18,7 +18,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  // 🚫 remove any `other: { "fc:frame": … }` here
 };
 
 export default function RootLayout({
