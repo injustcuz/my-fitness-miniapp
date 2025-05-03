@@ -21,13 +21,33 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <FrameProvider>{children}</FrameProvider>
+      <head>
+        {/* Standard SEO tags */}
+        <title>Monad Farcaster MiniApp Template</title>
+        <meta
+          name="description"
+          content="A template for building mini-apps on Farcaster and Monad"
+        />
+
+        {/* Farcaster MiniApp meta tags */}
+        <meta property="fc:frame" content="vNext" />
+        <meta
+          property="fc:frame:image"
+          content="https://cdn.prod.website-files.com/667c57e6f9254a4b6d914440/667f1590ccceec3eee19ec7c_Favicon.png"
+        />
+        <meta property="fc:frame:button:1:text" content="Open MiniApp" />
+        <meta
+          property="fc:frame:button:1:url"
+          content="https://my-fitness-miniapp.vercel.app"
+        />
+      </head>
+      <body>
+        {children}
       </body>
     </html>
   );
